@@ -1,0 +1,36 @@
+{
+    "LoginPage": {
+        "usernameInput": "input[data-test='username']",
+        "passwordInput": "input[data-test='password']",
+        "loginButton": "#login-button",
+        "errorMessage": "[data-test='error']"
+    },
+    "ProductsPage": {
+        "sortSelect": ".product_sort_container",
+        "productsTitles": ".inventory_item_name",
+        "productsPrices": ".inventory_item_price",
+        "pageTittle": ".product_label",
+        "cartBadge": ".shopping_cart_badge",
+        "cartLink": ".shopping_cart_link",
+        "backpackButton": "//button[normalize-space()='REMOVE']"
+    },
+    "CartPage": {
+        "pageTittle": ".subheader",
+        "cartQuantityBadge": ".cart_quantity",
+        "itemName": ".inventory_item_name",
+        "itemPrice": ".inventory_item_price",
+        "cartBadge": ".shopping_cart_badge"
+    },
+    "CheckoutPage": {
+        "pageTittle": ".subheader",
+        "checkoutButton": "//a[normalize-space()='CHECKOUT']",
+        "firstName": "input[data-test='firstName']",
+        "lastName": "input[data-test='lastName']",
+        "postalCode": "input[data-test='postalCode']",
+        "continueButton": "input[value='CONTINUE']",
+        "paymentInfo": "//div[normalize-space()='Payment Information:']",
+        "count": "//div[@class='summary_quantity']",
+        "finishButton": "//a[normalize-space()='FINISH']",
+        "thankyouMessage": ".complete-header"
+    }
+}
